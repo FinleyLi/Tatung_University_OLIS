@@ -24,3 +24,30 @@
 * VSCode 輸入
     - `Ctrl + Shift + P`
     - `Git: Clone`
+* git base use
+    - `git config --global user.name "username"`
+    - `git config --global user.email "username@domain"`
+    - `git config --list`
+    - 輸入 `git pull` 更新
+    - 輸入 `git add .` 加入檔案
+    - 輸入 `git commit -m "message"` 註解
+    - 輸入 `git push` 上傳
+    - 輸入 `git status` 查看狀態
+    - 輸入 `git log` 查看紀錄
+* git branch
+    - 輸入 `git branch` 查看分支
+    - 輸入 `git branch -a` 查看遠端分支
+    - 輸入 `git branch -d <branchname>` 刪除分支
+    - 輸入 `git checkout <branchname>` 切換分支
+    - 輸入 `git checkout -b <branchname>` 建立分支
+    - 輸入 `git merge <branchname>` 合併分支
+* git tag
+    - 輸入 `git tag` 查看標籤
+    - 輸入 `git tag -a <tagname> -m "message"` 建立標籤
+    - 輸入 `git tag -d <tagname>` 刪除標籤
+    - 輸入 `git push origin <tagname>` 上傳標籤
+    - 輸入 `git push origin --tags` 上傳全部標籤
+    - 輸入 `git push origin :refs/tags/<tagname>` 刪除遠端標籤
+    - 輸入 `git checkout <tagname>` 切換標籤
+    - 輸入 `git checkout -b <branchname> <tagname>` 建立分支並切換標籤
+    - 輸入 `git push origin <branchname>` 上傳分支
