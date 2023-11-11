@@ -1,3 +1,4 @@
+# step by step to install tenseal on windows 10
 py -0     # list all installed packages
 python -m pip install --upgrade pip # upgrade pip
 py -3.9 -m venv Env39FHE # create virtual environment
