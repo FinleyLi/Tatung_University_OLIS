@@ -1,15 +1,5 @@
 # @reboot /bin/bash /home/您的用戶名/pi_monitor.sh >> /var/log/pi_monitor.log 2>&1
 # sudo touch /var/log/pi_monitor.log
-# sudo chown $USER /var/log/pi_monitor.log
-
-# nohup /home/您的用戶名/pi_monitor.sh &
-# tail -f nohup.out
-# ps aux | grep pi_monitor.sh
-## ps -ef | grep pi_monitor.sh
-## kill -9 PID
-
-# tail -f /var/log/pi_monitor.log
-# --------------------------------------------------
 
 #!/bin/bash
 
